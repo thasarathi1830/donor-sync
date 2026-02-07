@@ -14,10 +14,6 @@
 
 ## ✨ Context 
 
-### 🏆 Project Context
-- A comprehensive solution for blood donation management.
-- Sustainable Development Goal (SDG): 3. Good health and well being.
-- Problem Statement: "Lack of Access to Healthcare in Underserved Communities".
 
 
 ## 🚀 Features
@@ -50,7 +46,7 @@ flowchart LR
     %% Frontend
     subgraph Frontend
         FE[React + Next.js<br>TypeScript + TailwindCSS<br>shadcn/ui + AceternityUI<br>
-        Vercel Hosting<br>
+        render Hosting<br>
         Developed in 
         Firebase Studio IDE]
          
