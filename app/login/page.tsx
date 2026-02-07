@@ -92,7 +92,7 @@ const PatientContent: React.FC = () => {
 
       setLoadingStatus("Finalizing Session...");
       // Set user context
-      setUser(userData.userId, "patient", userData.onboarded);
+      setUser(userData.userId, "patient", (userData as any).onboarded);
 
       isProcessing = false;
 
@@ -176,7 +176,7 @@ const DonorContent: React.FC = () => {
       }
 
       setLoadingStatus("Finalizing Session...");
-      setUser(userData.userId, "donor", userData.onboarded);
+      setUser(userData.userId, "donor", (userData as any).onboarded);
 
       isProcessing = false;
 
@@ -257,7 +257,7 @@ const HospitalContent: React.FC = () => {
       }
 
       setLoadingStatus("Finalizing Session...");
-      setUser(userData.userId, "hospital", userData.onboarded);
+      setUser(userData.userId, "hospital", (userData as any).onboarded);
 
       isProcessing = false;
 
@@ -338,7 +338,7 @@ const OrganisationContent: React.FC = () => {
       }
 
       setLoadingStatus("Finalizing Session...");
-      setUser(userData.userId, "organisation", userData.onboarded);
+      setUser(userData.userId, "organisation", (userData as any).onboarded);
 
       isProcessing = false;
 
